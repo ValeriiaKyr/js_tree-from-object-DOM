@@ -1,0 +1,2 @@
+!function e(t,r){var n=document.createElement("ul"),l=!0,a=!1,c=void 0;try{for(var o,i=Object.keys(r)[Symbol.iterator]();!(l=(o=i.next()).done);l=!0){var u=o.value,d=r[u],y=document.createElement("li");y.textContent=u,Object.keys(d).length>0&&d.constructor===Object&&e(y,d),n.appendChild(y)}}catch(e){a=!0,c=e}finally{try{l||null==i.return||i.return()}finally{if(a)throw c}}t.appendChild(n)}(document.querySelector("#tree"),{Drink:{Wine:{},Schnaps:{}},Fruit:{Red:{Cherry:{},Strawberry:{}},Yellow:{Banana:{},Pineapple:{}}}});
+//# sourceMappingURL=index.fcddc119.js.map
